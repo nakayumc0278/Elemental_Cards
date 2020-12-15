@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A1AA9D41-B6FE-4B5E-B4E0-B659CC48E654}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>_ElementalCards.My.MyApplication</StartupObject>
+    <RootNamespace>_ElementalCards</RootNamespace>
+    <AssemblyName>Elemental_Cards</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Elemental_Cards.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Elemental_Cards.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="rulebook.Designer.vb">
+      <DependentUpon>rulebook.vb</DependentUpon>
+    </Compile>
+    <Compile Include="rulebook.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="title.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="title.Designer.vb">
+      <DependentUpon>title.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="game.Designer.vb">
+      <DependentUpon>game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="game.resx">
+      <DependentUpon>game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rulebook.resx">
+      <DependentUpon>rulebook.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="title.resx">
+      <DependentUpon>title.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Al_アルミニウム.bmp" />
+    <Content Include="Resources\Ar_アルゴン.bmp" />
+    <Content Include="Resources\Be_ベリリウム.bmp" />
+    <Content Include="Resources\B_ホウ素.bmp" />
+    <Content Include="Resources\Ca_カルシウム.bmp" />
+    <Content Include="Resources\Cl_塩素.bmp" />
+    <Content Include="Resources\C_炭素.bmp" />
+    <Content Include="Resources\F_フッ素.bmp" />
+    <Content Include="Resources\game1.bmp" />
+    <Content Include="Resources\game2.bmp" />
+    <Content Include="Resources\game3.bmp" />
+    <Content Include="Resources\game4.bmp" />
+    <Content Include="Resources\He_ヘリウム.bmp" />
+    <Content Include="Resources\H_水素.bmp" />
+    <Content Include="Resources\KEY.bmp" />
+    <Content Include="Resources\K_カリウム.bmp" />
+    <Content Include="Resources\Li_リチウム.bmp" />
+    <Content Include="Resources\Mg_マグネシウム.bmp" />
+    <Content Include="Resources\Na_ナトリウム.bmp" />
+    <Content Include="Resources\Ne_ネオン.bmp" />
+    <Content Include="Resources\N_窒素.bmp" />
+    <Content Include="Resources\O_酸素.bmp" />
+    <Content Include="Resources\P_リン.bmp" />
+    <Content Include="Resources\Si_ケイ素.bmp" />
+    <Content Include="Resources\S_硫黄.bmp" />
+    <Content Include="Resources\裏横.bmp" />
+    <Content Include="Resources\裏縦.bmp" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

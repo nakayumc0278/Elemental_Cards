@@ -1,0 +1,24 @@
+H:\VB\test\test\obj\Debug\test.vbprojAssemblyReference.cache
+H:\VB\test\test\obj\Debug\test.Form1.resources
+H:\VB\test\test\obj\Debug\test.Resources.resources
+H:\VB\test\test\obj\Debug\test.vbproj.GenerateResource.cache
+H:\VB\test\test\obj\Debug\test.vbproj.CoreCompileInputs.cache
+H:\VB\test\test\bin\Debug\test.exe.config
+H:\VB\test\test\bin\Debug\test.exe
+H:\VB\test\test\bin\Debug\test.pdb
+H:\VB\test\test\bin\Debug\test.xml
+H:\VB\test\test\obj\Debug\test.exe
+H:\VB\test\test\obj\Debug\test.xml
+H:\VB\test\test\obj\Debug\test.pdb
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\bin\Debug\test.exe.config
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\bin\Debug\test.exe
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\bin\Debug\test.pdb
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\bin\Debug\test.xml
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.vbprojAssemblyReference.cache
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.Form1.resources
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.Resources.resources
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.vbproj.GenerateResource.cache
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.vbproj.CoreCompileInputs.cache
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.exe
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.xml
+K:\it29\VB作品制作\VB 第4班（岡安・髙武・小早川・中山）\(999)その他\Sample\VB\test\test\obj\Debug\test.pdb

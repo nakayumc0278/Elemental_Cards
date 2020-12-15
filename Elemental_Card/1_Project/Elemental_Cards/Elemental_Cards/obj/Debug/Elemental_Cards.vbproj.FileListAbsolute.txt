@@ -1,0 +1,14 @@
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\Elemental_Cards.vbprojAssemblyReference.cache
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\Elemental_Cards.vbproj.GenerateResource.cache
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\Elemental_Cards.vbproj.CoreCompileInputs.cache
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\bin\Debug\Elemental_Cards.exe.config
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\bin\Debug\Elemental_Cards.exe
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\bin\Debug\Elemental_Cards.pdb
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\bin\Debug\Elemental_Cards.xml
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\_ElementalCards.game.resources
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\_ElementalCards.rulebook.resources
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\_ElementalCards.title.resources
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\_ElementalCards.Resources.resources
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\Elemental_Cards.exe
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\Elemental_Cards.xml
+\\192.168.1.4\school\Elemental_Card\1_Project\Elemental_Cards\Elemental_Cards\obj\Debug\Elemental_Cards.pdb
